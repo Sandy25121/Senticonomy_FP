@@ -1,2 +1,1 @@
-pip install kagglehub pandas numpy matplotlib scipy seaborn plotly spacy scikit-learn boto3 sqlalchemy pymysql python-dotenv cryptography streamlit nltk wordcloud transformers newsapi-python vaderSentiment --upgrade
-
+pip install --upgrade kagglehub pandas numpy matplotlib scipy seaborn plotly spacy scikit-learn boto3 sqlalchemy pymysql python-dotenv cryptography streamlit nltk wordcloud transformers newsapi-python vaderSentiment
