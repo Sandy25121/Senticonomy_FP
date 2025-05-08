@@ -1,21 +1,20 @@
-python3.12 -m pip install --upgrade pip
-python3.12 -m pip install kagglehub
-python3.12 -m pip install pandas
-python3.12 -m pip install numpy
-python3.12 -m pip install matplotlib
-python3.12 -m pip install scipy
-python3.12 -m pip install seaborn
-python3.12 -m pip install plotly
-python3.12 -m pip install spacy
-python3.12 -m pip install scikit-learn
-python3.12 -m pip install boto3
-python3.12 -m pip install sqlalchemy
-python3.12 -m pip install pymysql
-python3.12 -m pip install python-dotenv
-python3.12 -m pip install cryptography
-python3.12 -m pip install streamlit
-python3.12 -m pip install nltk
-python3.12 -m pip install wordcloud
-python3.12 -m pip install transformers
-python3.12 -m pip install newsapi-python
-python3.12 -m pip install vaderSentiment
+kagglehub
+pandas
+numpy
+matplotlib
+scipy
+seaborn
+plotly
+spacy
+scikit-learn
+boto3
+sqlalchemy
+pymysql
+python-dotenv
+cryptography
+streamlit
+nltk
+wordcloud
+transformers
+newsapi-python
+vaderSentiment
