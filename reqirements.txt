@@ -15,5 +15,6 @@ pip install streamlit
 pip install nltk
 pip install wordcloud
 pip install transformers
+pip install --upgrade transformers
 
 pip install pandas numpy nltk plotly wordcloud matplotlib python-dotenv newsapi-python boto3 transformers streamlit sqlalchemy vaderSentiment
