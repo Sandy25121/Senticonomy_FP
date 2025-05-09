@@ -101,15 +101,6 @@ graph TD
 
 ---
 
-## 📜 Guidelines
-- Follow modular coding with reusable functions/classes
-- Commit regularly with meaningful messages
-- Use `.env` for managing API keys securely
-- Include logging and exception handling in all scripts
-- Optimize for cost-efficiency on AWS
-
----
-
 ## 🔖 Technical Tags
 `#NLP` `#SentimentAnalysis` `#AWS` `#Python` `#APIs` `#Clustering` `#NewsAnalytics` `#Streamlit` `#DataVisualization`
 
