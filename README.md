@@ -31,19 +31,19 @@ Senticonomy is a data analytics pipeline and visualization tool that collects, p
 
 ---
 
-## 🔁 Pipeline Overview
+## 🔀 Pipeline Overview
 
 ```mermaid
 graph TD
-    A[News Sources (APIs: NewsAPI, GNews, Google News)] --> B[Data Collection Script]
-    B --> C[AWS S3 (Raw Storage)]
-    C --> D[Data Cleaning & Preprocessing]
-    D --> E[AWS RDS (Structured Storage)]
-    E --> F[Sentiment Analysis (BERT, VADER, TextBlob)]
-    F --> G[Clustering (KMeans, DBSCAN, LDA)]
-    G --> H[Sentiment Dashboard (Streamlit + Plotly)]
-    H --> I[Deployment (EC2/S3)]
-    B --> J[AWS Lambda - Scheduled Runs]
+    A["News Sources (APIs: NewsAPI, GNews, Google News)"] --> B["Data Collection Script"]
+    B --> C["AWS S3 (Raw Storage)"]
+    C --> D["Data Cleaning & Preprocessing"]
+    D --> E["AWS RDS (Structured Storage)"]
+    E --> F["Sentiment Analysis (BERT, VADER, TextBlob)"]
+    F --> G["Clustering (KMeans, DBSCAN, LDA)"]
+    G --> H["Sentiment Dashboard (Streamlit + Plotly)"]
+    H --> I["Deployment (EC2/S3)"]
+    B --> J["AWS Lambda - Scheduled Runs"]
     F --> J
     G --> J
 ```
